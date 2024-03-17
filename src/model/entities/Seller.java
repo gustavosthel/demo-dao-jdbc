@@ -58,8 +58,8 @@ public class Seller implements Serializable{
 		return birthDate;
 	}
 
-	public void setBirthDate(LocalDate birthDate) {
-		this.birthDate = birthDate;
+	public void setBirthDate(LocalDate date) {
+		this.birthDate = date;
 	}
 
 	public Double getBaseSalary() {
@@ -100,8 +100,4 @@ public class Seller implements Serializable{
 		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary="
 				+ baseSalary + ", department=" + department + "]";
 	}
-
-	
-	
-
 }
